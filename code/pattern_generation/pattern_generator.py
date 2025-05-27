@@ -5,7 +5,8 @@ to_screen_mat = [1, 0, 0, 0, -1, 0]
 tiles = 0
 level = 0
 
-colors = {'H1':["grey", (90, 90, 90)], 'H':['light blue', (254, 100, 100)], 'T':["blue", (254, 0, 0)], 'P':["light grey", (150, 150, 150)], 'F':["White", (200, 200, 200)]}
+#colors = {'H1':["grey", (90, 90, 90)], 'H':['light blue', (254, 100, 100)], 'T':["blue", (254, 0, 0)], 'P':["light grey", (150, 150, 150)], 'F':["White", (200, 200, 200)]}
+colors = {'H1':["yellow", (0, 255, 0)], 'H':['light blue', (254, 100, 100)], 'T':["red", (0, 0, 254)], 'P':["light grey", (150, 150, 150)], 'F':["White", (254, 254, 254)]}
 
 vertices_to_draw = []
 

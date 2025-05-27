@@ -6,11 +6,11 @@ SCALAR = 30
 OUTPUT_FILE = "einstein_pattern.png"
 
 # Generate pattern
-for i in range(4):
+for i in range(6):
     next_generation()
 
 # Create output image
-output_image = np.full((1000, 1000, 3), 255)  # White background
+output_image = np.full((2000, 2000, 3), 255)  # White background
 
 # Draw all tiles
 for tile in vertices_to_draw:
